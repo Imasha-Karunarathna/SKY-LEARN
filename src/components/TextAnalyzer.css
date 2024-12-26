@@ -1,0 +1,83 @@
+/* src/components/TextAnalyzer.css */
+.full{
+    background-color:linear-gradient(135deg, #044299, #1a1a1a, #010e0a);
+}
+
+.text-analyzer-container {
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    background: linear-gradient(135deg, #010713, #00050e);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text-analyzer-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.text-analyzer-container textarea {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    resize: none;
+    font-size: 1rem;
+    color: #0c0c0c;
+    margin-bottom: 15px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.stats p {
+    margin: 0;
+}
+
+.text-analyzer-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #00b894;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.text-analyzer-container button:hover {
+    background-color: #009374;
+}
+
+.errors-list,
+.corrected-text {
+    margin-top: 20px;
+    background: rgba(228, 231, 231, 0.1);
+    padding: 15px;
+    border-radius: 8px;
+    color: #f3f6f8;
+}
+
+.errors-list h3,
+.corrected-text h3 {
+    margin-top: 0;
+    color: #f3f6f8;
+}
+
+.errors-list ul {
+    list-style: none;
+    padding: 0;
+    color: #f3f6f8;
+}
+
+.errors-list li {
+    margin-bottom: 8px;
+    color: #f3f6f8;
+}

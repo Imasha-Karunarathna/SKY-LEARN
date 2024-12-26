@@ -1,0 +1,72 @@
+/* Fullscreen background video */
+#background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1; /* Video stays behind other elements */
+}
+
+/* Home container */
+.home-container {
+    position: relative;
+    text-align: center;
+    padding: 50px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #cff71f;
+    font-size: 30px;
+    z-index: 1; /* Ensure content stays in front */
+}
+
+/* Get Started Button */
+.get-started-btn {
+    padding: 12px 24px;
+    font-size: 20px;
+    color: skyblue;
+    background-color:#0c264d ;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 30px;
+    transition: background-color 0.3s ease;
+    z-index: 2; /* Button in front */
+}
+
+.get-started-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Animated Text */
+.animated-text {
+    font-size: 70px;
+    font-weight: bold;
+    color: #033d52;
+    animation: text-animation 10s ease-in-out infinite;
+    z-index: 2; /* Text in front */
+}
+
+p{
+    color:#033d52;
+}
+
+/* Text animation */
+@keyframes text-animation {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    50% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+}

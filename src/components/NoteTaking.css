@@ -1,0 +1,78 @@
+.full{
+    background-color: (135deg, #044299, #1a1a1a, #010e0a);
+}
+.note-taking-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background: linear-gradient(135deg, #044299, #520bf7, #595a51, #010e0a);
+    color: aliceblue;
+}
+
+.editor-section,
+.highlight-section,
+.annotation-section {
+    margin-bottom: 20px;
+    color: rgb(17, 17, 15);
+}
+
+.editor-section button,
+.highlight-section button,
+.annotation-section button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.editor-section button:hover,
+.highlight-section button:hover,
+.annotation-section button:hover {
+    background-color: #0056b3;
+}
+
+.image-container {
+    position: relative;
+}
+
+.annotated-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.annotation-section input {
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* ReactQuill Editor Styles */
+.ql-editor {
+    color: white;
+
+}
+
+.ql-editor .ql-bold,
+.ql-editor .ql-italic,
+.ql-editor .ql-underline,
+.ql-editor .ql-strike,
+.ql-editor .ql-code {
+    color: black;
+
+}
+
+.ql-editor .ql-highlight {
+    background-color: white;
+
+}
+
+.highlight-section {
+    color: white;
+
+}

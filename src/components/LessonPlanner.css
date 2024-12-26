@@ -1,0 +1,77 @@
+/* src/components/LessonPlanner.css */
+
+.lesson-planner {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.lesson-planner h2 {
+    color: #ddd;
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.react-quill {
+    height: 200px;
+}
+
+.form-controls {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+select {
+    margin-right: 10px;
+}
+
+.search-filter {
+    margin-bottom: 20px;
+}
+
+.plans-list {
+    list-style: none;
+    padding: 0;
+}
+
+.plan-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.plan-controls {
+    margin-top: 10px;
+}
+
+
+
+.delete-btn {
+    background-color: rgb(250, 4, 4);
+    color: white;
+    margin-right: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.edit-btn {
+    background-color: rgb(7, 248, 7);
+    color: white;
+    margin-right: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
